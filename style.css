@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Share Tech", sans-serif;
+    box-sizing: border-box;
+}
+
+/* container */
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container_box{
+    background-color: #00213d;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+/* continer_button */
+#container_box input{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    margin: 10px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 18px;
+    box-shadow: 5px 5px 15px #000, -3px -3px 7px #fff;
+    cursor: pointer;
+}
+form #equal{
+    width: 125px;
+}
+form #display{
+    display: flex;
+    justify-content: right;
+    margin: 20px 0;
+}
+form #display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+    #container_box{
+        background-color: #00213d;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    #container_box input{
+        width: 35px;
+        height: 35px;
+        border-radius: 6px;
+        border: 0;
+        outline: 0;
+        margin: 10px;
+        color: #fff;
+        background-color: transparent;
+        font-size: 14px;
+        box-shadow: 5px 5px 15px #000, -3px -3px 7px #fff;
+    }
+    form #equal{
+        width: 95px;
+    }
+}
